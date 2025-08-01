@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/img_2"
+    android:padding="16dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="Students Details"
+        android:textSize="24sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="8dp"
+        android:textStyle="bold"
+        android:text="Name"
+        android:textSize="19sp" />
+    <EditText
+        android:id="@+id/edit_text_full_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Full Name"
+        android:background="@drawable/et_background"
+        android:textColorHint="#2F2F2F"
+        android:textColor="#000000"
+        android:padding="12dp"
+        android:inputType="textCapSentences" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="8dp"
+        android:textStyle="bold"
+        android:text="Gender"
+        android:textSize="19sp" />
+    <Spinner
+        android:id="@+id/spinner_gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@drawable/et_background"
+        android:entries="@array/duration_options" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="8dp"
+        android:textStyle="bold"
+        android:text="Course Name"
+        android:textSize="19sp" />
+    <Spinner
+        android:id="@+id/spinner_course"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@drawable/et_background"
+        android:entries="@array/duration_options" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="8dp"
+        android:textStyle="bold"
+        android:text="Course Duration"
+        android:textSize="19sp" />
+    <Spinner
+        android:id="@+id/spinner_duration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@drawable/et_background"
+        android:entries="@array/duration_options" />
+    <TextView
+         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="8dp"
+        android:textStyle="bold"
+        android:text="Enrolled Date"
+        android:textSize="19sp" />
+    <TextView
+        android:id="@+id/text_view_enrolled_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:textColorHint="@color/black"
+        android:background="@drawable/et_background"
+        android:text="Select Enrolled Date"
+        android:textSize="16sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_save"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="20dp"
+        android:layout_marginTop="24dp"
+        android:textSize="18dp"
+        android:layout_gravity="center"
+        android:textAllCaps="false"
+        android:background="@drawable/rounded_button_bg"
+        android:text="Save" />
+
+</LinearLayout>

@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">BrightUICourse</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string-array name="duration_options">
+        <item>1 Month</item>
+        <item>3 Months</item>
+        <item>6 Months</item>
+        <item>1 Year</item>
+    </string-array>
+    <string-array name="course_options">
+        <item>Meta Back-End Developer</item>
+        <item>Artificial Intelligence (AI) and Machine Learning (ML)</item>
+        <item>Mobile App Development</item>
+        <item>Data Analytics</item>
+        <item>Software Testing</item>
+        <item>Cybersecurity</item>
+        <item>AWS Certified Solutions Architect Associate</item>
+        <item>IBM DevOps and Software Engineering</item>
+
+    </string-array>
+
+    <string-array name="gender_options">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+
+</resources>
